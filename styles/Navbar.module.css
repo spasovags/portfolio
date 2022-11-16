@@ -10,6 +10,7 @@
     z-index: 10000;
   }
   .navbar-container {
+    padding:0em 0.3em;
     display: flex;
     flex-direction: column;
   }
@@ -18,7 +19,7 @@
     flex-direction: column;
     width: 100%;
     position: fixed;
-    left: -100%;
+    right: -100%;
     top: 30px;
     gap: 0;
     padding-inline-start: 0px;
@@ -38,7 +39,7 @@
   .icon {
     display: block;
   }
-  .menu-container {
+  /*.menu-container {
     display: grid;
     place-items: center;
     height: 45px;
@@ -46,6 +47,7 @@
     cursor: pointer;
   }
   .menu-container span {
+    padding-right: 0.3em;
     width: 30px;
     height: 4px;
     background: black;
@@ -82,10 +84,58 @@
     transform: rotate(45deg) translate(-7px, -12px);
     width: 40px;
   }
+  */
+  .menu-container{
+    width: 35px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .menu-container span{
+    background-color:#FFF;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+  }
+  .menu-container span:nth-child(1){
+    top:0px;
+    left: 0px;
+  }
+  .menu-container span:nth-child(2){
+    top:13px;
+    left: 0px;
+  }
+  .menu-container span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+  }
+  .menu-container:not(.active):hover span:nth-child(1){
+    transform: scaleX(.8);
+  }
+  .menu-container:not(.active):hover span:nth-child(2){
+    transform: scaleX(.5);
+  }
+  .menu-container:not(.active):hover span:nth-child(3){
+    transform: scaleX(.8);
+  }
+  .menu-container.active span:nth-child(1){
+    top: 13px;
+  }
+  .menu-container.active span:nth-child(2){
+    top:13px;
+  }
+  .menu-container.active span:nth-child(3){
+    top: 13px;
+  }
+
   /* end of hamburger menu */
   
   .hideMenu {
-    left: 0;
+    right: 0;
   }
  .dropbtn {
     width: 100%;

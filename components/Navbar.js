@@ -1,12 +1,12 @@
 import styles from '../styles/Navbar.module.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from './icons/logoPortfolio.avif'
 
 const Navbar = () => {
   
-    const [isModal, setIsModal] = useState(true);
+    const [isModal, setIsModal] = useState(false);
     const contentClassname = isModal
         ? `${styles["hideMenu"]} ${styles["nav-links-container"]}`
         : `${styles["nav-links-container"]}`;
@@ -16,6 +16,7 @@ const Navbar = () => {
             ? `${styles["active"]} ${styles["menu-container"]} ${styles["icon"]}`
             : `${styles["menu-container"]} ${styles["icon"]}`;
     
+   
 
   return (
     <div className={`${styles["nav-background"]}`}>
