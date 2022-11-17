@@ -1,8 +1,15 @@
 import React from 'react'
+import Technology from '../components/Technology'
+import styles from '../styles/TechStack.module.css'
 
-const TechStack = () => {
-  return (
-    <div>TechStack</div>
+
+const TechStack = ({technologies}) => {
+  
+   return (
+    <div className={`${styles["techstack-container"]}`} >
+       {technologies.map((technology) =>
+        <Technology key={technology.id} value={technology}/>)}
+    </div>
   )
 }
 

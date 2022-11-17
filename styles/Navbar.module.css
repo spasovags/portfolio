@@ -30,10 +30,15 @@
   .logo-close-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
   .logo-close-container img{
     cursor: pointer;
+  }
+  .logo-close-container a{
+   display: flex;
+   align-items: center;
   }
   /* hamburger menu */
   .icon {
