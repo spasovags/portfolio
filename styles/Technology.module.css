@@ -1,5 +1,4 @@
 .card {
-    top: 200px;
     margin: 3em 0.5em 0.5em;
 }
 .photoCard {
@@ -7,19 +6,35 @@
     margin: 0px auto;
     position: relative;
 }
-
-.animCard{
-  animation-name: slidein;
+.leftAnim{
+  transform: translateX(-100%);
+  animation-name: slideLeft;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-@keyframes slidein{
+@keyframes slideLeft{
   from {
-      left:-100%;
-   }
-   to {
-      left:100%;
-   }
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+.rightAnim{
+  transform: translateX(100%);
+  animation-name: slideRight;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideRight{
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }
 .shakeitoff {
     display: inline-block;

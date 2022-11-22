@@ -222,7 +222,7 @@
       background-image: linear-gradient(to right, var(--surface1), var(--surface1));
     }
     .nav-background {
-      background-image: linear-gradient(to right, white , var(--brand), var(--brand));
+      background-color: var(--brand);
     }
   }
   
