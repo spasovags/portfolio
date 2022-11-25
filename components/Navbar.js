@@ -19,7 +19,7 @@ const Navbar = () => {
    
 
   return (
-    <div className={`${styles["nav-background"]}`}>
+    <nav className={`${styles["nav-background"]}`}>
       <div className={`${styles["navbar-container"]}`}>
         <div className={`${styles["logo-close-container"]}`}>
           <Link href="#">
@@ -33,21 +33,21 @@ const Navbar = () => {
           </div>
         </div>
         <ul className={contentClassname}>
-          <li className={`${styles["dropdown"]}`}>
-            <Link href="#" className={`${styles["dropbtn"]}`}>tech stack</Link>
+          <li className={`${styles["menu-li"]}`}>
+            <Link href="#" className={`${styles["menu-link"]}`}>tech stack</Link>
          </li>
-          <li className={`${styles["dropdown"]}`}>
-            <Link href="#" className={`${styles["dropbtn"]}`}>contact me</Link>
+          <li className={`${styles["menu-li"]}`}>
+            <Link href="#" className={`${styles["menu-link"]}`}>contact me</Link>
             </li>
-          <li className={`${styles["dropdown"]}`}>
-            <Link href="#" className={`${styles["dropbtn"]}`}>about</Link>
+          <li className={`${styles["menu-li"]}`}>
+            <Link href="#" className={`${styles["menu-link"]}`}>about</Link>
           </li>
-          <li className={`${styles["dropdown"]}`}>
-            <Link href="#" className={`${styles["dropbtn"]}`}>Github</Link>
+          <li className={`${styles["menu-li"]}`}>
+            <Link href="#" className={`${styles["menu-link"]}`}>Github</Link>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   )
 }
 
