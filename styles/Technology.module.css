@@ -6,6 +6,9 @@
     margin: 0px auto;
     position: relative;
 }
+.photoCard img{
+  width: auto;
+}
 .leftAnim{
   transform: translateX(-100%);
   animation-name: slideLeft;
