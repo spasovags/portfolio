@@ -16,14 +16,14 @@ const Technology = (props) => {
       <div 
       className={`${styles["card"]} ${IsCardsVisible ? `${styles[`${anim}`]}` : ""}`}
       ref={cardRef} >
-         <div>
-         <div className={`${styles["photoCard"]}`} >
-          <Image 
-          src={`${basePath}/${post.photo}`} 
-          layout="fill"
-          objectFit='contain'
-          alt={post.alt}/>
-        </div> 
+         <div className={`${styles["photoCont"]}`} >
+          <div className={`${styles["photoCard"]}`} >
+           <Image 
+           src={`${basePath}/${post.photo}`} 
+           layout="fill"
+           objectFit='contain'
+           alt={post.alt}/>
+         </div> 
         </div>      
       </div>
    );

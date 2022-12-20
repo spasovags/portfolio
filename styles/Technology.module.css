@@ -1,5 +1,16 @@
 .card {
-    margin: 3em 0.5em 0.5em;
+    margin:  3em auto 0em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.photoCont{
+  border: 2px solid var(--brand);
+  border-radius: 10px;
+
+  background-color: white;
+  width: 50%;
 }
 .photoCard {
     height: 200px;
@@ -71,8 +82,7 @@
       border-block-start-style: none;
     }
   }
-@media (min-width: 700px) {
+/*@media (min-width: 700px) {
   .card{
-    margin: 1em;
   }
-}
+}*/
