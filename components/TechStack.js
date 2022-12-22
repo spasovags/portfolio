@@ -7,10 +7,13 @@ import { useInView } from 'react-intersection-observer';
 const TechStack = ({technologies}) => {
 
    return (
+    <>
+    <h2 className={`${styles["techstack-text"]}`}>Tech stack</h2>
     <section className={`${styles["techstack-container"]}`}>
        {technologies.map((technology, index) =>
         <Technology key={technology.id} indexAnim={index} value={technology}/>)}
     </section>
+    </>
   )
 }
 
