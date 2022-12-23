@@ -2,7 +2,7 @@ import styles from '../styles/Navbar.module.css'
 import { useState, useEffect } from "react";
 import Link from 'next/link'
 import Image from 'next/image'
-import logo from './icons/logoPortfolio.avif'
+import logo from '../public/favicon.png'
 
 const Navbar = () => {
   

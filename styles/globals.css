@@ -16,9 +16,9 @@ html {
   box-sizing: border-box;
   color: var(--text1);
 
-  --brand-hue: 35;
-  --brand-saturation: 80%;
-  --brand-lightness: 35%;
+  --brand-hue: 29;
+  --brand-saturation: 98%;
+  --brand-lightness: 25%;
   
   /* light */
   --brand-light: hsl(var(--brand-hue), var(--brand-saturation), var(--brand-lightness));
