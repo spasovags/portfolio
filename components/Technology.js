@@ -10,7 +10,7 @@ const Technology = (props) => {
 
   let anim = props.indexAnim%2==0?leftAnim:rightAnim;
   const basePath = '/images/techstack'
-  const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true});
+  const { ref: cardRef, inView: IsCardsVisible } = useInView({triggerOnce: true, threshold:0.5});
 
    return (
       <div 
