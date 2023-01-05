@@ -23,8 +23,8 @@ html {
   /* light */
   --brand-light: hsl(var(--brand-hue), var(--brand-saturation), var(--brand-lightness));
   --text1-light: hsl(var(--brand-hue), var(--brand-saturation), 10%);
-  --text2-light: hsl(var(--brand-hue), 18%, 10%);
-  --surface1-light: hsl(var(--brand-hue) 25% 90%);
+  --text2-light: hsl(var(--brand-hue), 18%, 90%);
+  --surface1-light: hsl(var(--brand-hue) 99% 25%);
   --surface2-light: hsl(var(--brand-hue) 20% 70%);
   --surface3-light: hsl(var(--brand-hue) 20% 92%);
   --surface4-light: hsl(var(--brand-hue) 20% 85%);
@@ -39,7 +39,7 @@ html {
   );
   --text1-dark: hsl(var(--brand-hue) 15% 10%);
   --text2-dark: hsl(var(--brand-hue) 18% 90%);
-  --surface1-dark: hsl(var(--brand-hue) 10% 90%);
+  --surface1-dark: hsl(var(--brand-hue) 98% 9%);
   --surface2-dark: hsl(var(--brand-hue) 10% 80%);
   --surface3-dark: hsl(var(--brand-hue) 5%  20%);
   --surface4-dark: hsl(var(--brand-hue) 5% 25%);
