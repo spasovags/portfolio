@@ -106,7 +106,7 @@
     border-style: none;
   }
   .menu-link:hover {
-    color: var(--text1);
+    color: var(--text2);
     background: var(--surface1);
   }
   
@@ -176,10 +176,10 @@
   
     .menu-li:hover .menu-link {
       background-color: var(--surface2);
-      color: var(--text1);
+      color: var(--text2);
     }
     .menu-link:hover {
-      color: var(--text1);
+      color: var(--text2);
       background-image: linear-gradient(to right, var(--surface1), var(--surface1));
     }
     .nav-background {

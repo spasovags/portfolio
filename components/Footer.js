@@ -15,13 +15,17 @@ const Footer = () => {
     <div className={`${styles["footer-container"]}`} >
       <div className={`${styles["footer-sm-icons"]}`} >
        <FontAwesomeIcon
-        icon={faYoutube}/>
+        icon={faYoutube} 
+        className={`${styles["iconYoutube"]}`}/>
        <FontAwesomeIcon
-        icon={faGithub}/>
+        icon={faLinkedin}
+        className={`${styles["iconLinkedin"]}`}/>              
        <FontAwesomeIcon
-        icon={faLinkedin}/>
-        <FontAwesomeIcon
-        icon={faDev}/>      
+        icon={faGithub}
+        className={`${styles["iconGithub"]}`}/>
+       <FontAwesomeIcon
+        icon={faDev}
+        className={`${styles["iconDev"]}`}/>  
       </div> 
       <div className={`${styles["footer-info"]}`} >
       
