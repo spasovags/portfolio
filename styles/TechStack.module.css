@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); 
+
 .techstack-container{
     overflow: hidden;
     display: grid;
@@ -6,6 +8,7 @@
     position: relative;
 }
 .techstack-text{
+  font-family: 'Righteous', cursive;
   margin-top: 3em;
   margin-bottom: 0px;
   text-align: center;

@@ -22,6 +22,7 @@ export default function Home() {
         <title>G Spasova</title>
         <meta name="description" content="Portfolio" />
         <link rel="icon" href="/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/></link>
       </Head>
       
       <TechStack technologies={techno}/>

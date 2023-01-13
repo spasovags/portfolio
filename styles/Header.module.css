@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); 
+
 .header-container{
+    font-family: 'Righteous', cursive;
     color: black;
     padding:0em 0.3em;
     text-align: center;
